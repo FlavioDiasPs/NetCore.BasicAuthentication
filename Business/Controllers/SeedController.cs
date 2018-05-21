@@ -48,9 +48,9 @@ namespace Authentication.Controllers
             }
 
             // Our default user
-            AppUser user = new AppUser
+            BusinessUser user = new BusinessUser
             {
-                FullName = "Jane Doe",
+                //FullName = "Jane Doe",
                 Email = "janedoe@example.com",
                 UserName = "janedoe@example.com",
                 LockoutEnabled = false
