@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{162708A5-953E-4DF7-A8F2-A785A508570D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Authentication", "Business\Business.Authentication.csproj", "{162708A5-953E-4DF7-A8F2-A785A508570D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer.Authentication", "Consumer.Authentication\Consumer.Authentication.csproj", "{ACCC9B97-EAF4-48BC-AC55-3A3BE415DBE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{162708A5-953E-4DF7-A8F2-A785A508570D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162708A5-953E-4DF7-A8F2-A785A508570D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162708A5-953E-4DF7-A8F2-A785A508570D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCC9B97-EAF4-48BC-AC55-3A3BE415DBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCC9B97-EAF4-48BC-AC55-3A3BE415DBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCC9B97-EAF4-48BC-AC55-3A3BE415DBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCC9B97-EAF4-48BC-AC55-3A3BE415DBE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
