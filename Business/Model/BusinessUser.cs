@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace Authentication.Model
 {
     public class BusinessUser : IdentityUser
-    {       
+    {
         public string LegalDocument { get; set; }
+        public string Anotherstuff { get; set; }
 
     }
 }
